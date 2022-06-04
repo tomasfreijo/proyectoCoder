@@ -79,7 +79,7 @@ background-color: transparent;
 
 .busqueda{
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
     align-items: flex-start
 }
 
