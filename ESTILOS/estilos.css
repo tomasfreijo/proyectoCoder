@@ -146,6 +146,13 @@ background-color: transparent;
     justify-content: flex-start;
 }
 
+.carouselContainer{
+    style="width: 60%; margin: auto";
+}
+
+.letraNegra{
+    color: black;
+}
 
 @media screen and (max-width: 768px) {
   
