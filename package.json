@@ -1,0 +1,25 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/sass.scss estilos/sass.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasfreijo/proyectoCoder.git"
+  },
+  "author": "Tomas Freijo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasfreijo/proyectoCoder/issues"
+  },
+  "homepage": "https://github.com/tomasfreijo/proyectoCoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
