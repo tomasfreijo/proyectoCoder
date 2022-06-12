@@ -1,0 +1,11 @@
+.puntoAlto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 25px;
+    .puntoAlto__parrafo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
