@@ -181,6 +181,11 @@ background-color: transparent;
 	animation: shine .75s;
 }
 
+.mapa{
+    display: flex;
+    justify-content: flex-end;
+}
+
 @-webkit-keyframes shine {
 	100% {
 		left: 125%;

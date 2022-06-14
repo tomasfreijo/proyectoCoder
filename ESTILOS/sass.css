@@ -150,6 +150,10 @@ fieldset {
   -webkit-animation: shine .75s;
   animation: shine .75s; }
 
+.mapa {
+  display: flex;
+  justify-content: flex-end; }
+
 @-webkit-keyframes shine {
   100% {
     left: 125%; } }
