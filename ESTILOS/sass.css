@@ -154,6 +154,14 @@ fieldset {
   display: flex;
   justify-content: flex-end; }
 
+.fijado {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.top {
+  margin-top: 13rem; }
+
 @-webkit-keyframes shine {
   100% {
     left: 125%; } }
