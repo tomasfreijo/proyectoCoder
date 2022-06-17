@@ -20,9 +20,8 @@ fieldset{
 }
 
 .fondoHeader{
-background-color: black;
+    @extend .fondoFooter;
     font-size: xx-large;
-    color: white;
     margin-top: 50px;
 }
 

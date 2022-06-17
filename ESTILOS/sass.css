@@ -11,14 +11,12 @@ fieldset {
   background-color: black;
   color: white; }
 
-.fondoFooter {
+.fondoFooter, .fondoHeader {
   background-color: black;
   color: white; }
 
 .fondoHeader {
-  background-color: black;
   font-size: xx-large;
-  color: white;
   margin-top: 50px; }
 
 .fondoNegro {
